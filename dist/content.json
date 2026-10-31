@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "restaurant": {
+    "name": "Bombay Palace",
+    "tagline": "Indian cuisine · Columbus, Georgia",
+    "headline": "A little Bombay.\nA little closer.",
+    "intro": "Samosas and pakora, chicken tikka from the clay oven, and comforting soups on Macon Road.",
+    "address": "4213 Macon Rd",
+    "cityLine": "Columbus, GA 31907",
+    "phone": "",
+    "phoneConfirmed": false,
+    "email": "",
+    "emailConfirmed": false,
+    "orderingUrl": "",
+    "orderingConfirmed": false,
+    "notice": "",
+    "noticeHref": "",
+    "announcementConfirmed": false
+  },
+  "hours": [
+    {"day": "Monday", "text": "", "opens": "", "closes": "", "confirmed": false},
+    {"day": "Tuesday", "text": "", "opens": "", "closes": "", "confirmed": false},
+    {"day": "Wednesday", "text": "", "opens": "", "closes": "", "confirmed": false},
+    {"day": "Thursday", "text": "", "opens": "", "closes": "", "confirmed": false},
+    {"day": "Friday", "text": "", "opens": "", "closes": "", "confirmed": false},
+    {"day": "Saturday", "text": "", "opens": "", "closes": "", "confirmed": false},
+    {"day": "Sunday", "text": "", "opens": "", "closes": "", "confirmed": false}
+  ],
+  "holidays": null,
+  "services": {
+    "reservations": {"url": "", "byPhone": false, "confirmed": false},
+    "catering": {"summary": "", "url": "", "email": "", "confirmed": false},
+    "giftCards": {"url": "", "provider": "", "confirmed": false},
+    "careers": {"url": "", "summary": "", "confirmed": false},
+    "newsletter": {"action": "", "emailField": "email", "confirmed": false},
+    "menuPdf": {"url": "", "confirmed": false},
+    "social": [],
+    "specials": []
+  },
+  "media": {
+    "hero": {
+      "src": "assets/hero-spread.webp",
+      "srcSmall": "assets/hero-spread-640.webp",
+      "width": 1024,
+      "height": 1024,
+      "alt": "A table of chicken tikka, samosas, pakora, daal soup and tomato soup with chutneys",
+      "caption": "Illustrative photograph"
+    },
+    "feature": {
+      "src": "assets/feature-tandoori.webp",
+      "srcSmall": "assets/feature-tandoori-640.webp",
+      "width": 1152,
+      "height": 864,
+      "alt": "Tandoori chicken legs and chicken tikka skewers on a brass platter with onion, lemon and green chili",
+      "caption": "Illustrative photograph"
+    },
+    "appetizers": {
+      "src": "assets/dish-samosa.webp",
+      "srcSmall": "assets/dish-samosa-640.webp",
+      "width": 1024,
+      "height": 1024,
+      "alt": "Three golden vegetable samosas with mint and tamarind chutneys",
+      "caption": "Illustrative photograph"
+    },
+    "clay-oven": {
+      "src": "assets/dish-tikka.webp",
+      "srcSmall": "assets/dish-tikka-640.webp",
+      "width": 1024,
+      "height": 1024,
+      "alt": "Chicken tikka with red onion, lemon and mint chutney",
+      "caption": "Illustrative photograph"
+    },
+    "soups": {
+      "src": "assets/dish-daal.webp",
+      "srcSmall": "assets/dish-daal-640.webp",
+      "width": 1024,
+      "height": 1024,
+      "alt": "A bowl of golden daal soup with cream, cumin and a dried chili",
+      "caption": "Illustrative photograph"
+    },
+    "gallery": [
+      {
+        "id": "gallery-spread",
+        "src": "assets/hero-spread.webp",
+        "srcSmall": "assets/hero-spread-640.webp",
+        "width": 1024,
+        "height": 1024,
+        "alt": "A table of chicken tikka, samosas, pakora, daal soup and tomato soup with chutneys",
+        "caption": "Illustrative photograph"
+      },
+      {
+        "id": "gallery-tandoori",
+        "src": "assets/feature-tandoori.webp",
+        "srcSmall": "assets/feature-tandoori-640.webp",
+        "width": 1152,
+        "height": 864,
+        "alt": "Tandoori chicken legs and chicken tikka skewers on a brass platter with onion, lemon and green chili",
+        "caption": "Illustrative photograph"
+      },
+      {
+        "id": "gallery-samosa",
+        "src": "assets/dish-samosa.webp",
+        "srcSmall": "assets/dish-samosa-640.webp",
+        "width": 1024,
+        "height": 1024,
+        "alt": "Three golden vegetable samosas with mint and tamarind chutneys",
+        "caption": "Illustrative photograph"
+      },
+      {
+        "id": "gallery-tikka",
+        "src": "assets/dish-tikka.webp",
+        "srcSmall": "assets/dish-tikka-640.webp",
+        "width": 1024,
+        "height": 1024,
+        "alt": "Chicken tikka with red onion, lemon and mint chutney",
+        "caption": "Illustrative photograph"
+      },
+      {
+        "id": "gallery-daal",
+        "src": "assets/dish-daal.webp",
+        "srcSmall": "assets/dish-daal-640.webp",
+        "width": 1024,
+        "height": 1024,
+        "alt": "A bowl of golden daal soup with cream, cumin and a dried chili",
+        "caption": "Illustrative photograph"
+      },
+      {
+        "id": "gallery-table",
+        "src": "assets/visit-table-day.webp",
+        "srcSmall": "assets/visit-table-day-640.webp",
+        "width": 1152,
+        "height": 864,
+        "alt": "A table laid for two with brass tumblers, naan, mint chutney and marigolds",
+        "caption": "Illustrative photograph, not the restaurant's dining room"
+      }
+    ]
+  },
+  "menu": {
+    "complete": false,
+    "sourceLabel": "Uber Eats listing for 4213 Macon Rd",
+    "sourceUrl": "https://www.ubereats.com/store/bombay-palace/h5OYGVfTWHWQAwGDbkMlBw",
+    "sourceChecked": "2026-10-29",
+    "categories": [
+      {"id": "appetizers", "name": "Appetizers"},
+      {"id": "clay-oven", "name": "Clay oven"},
+      {"id": "soups", "name": "Soups"}
+    ],
+    "items": [
+      {"id": "veg-samosa", "category": "appetizers", "name": "Veg Samosa", "description": "Crisp pastry with a potato and pea filling.", "price": "4.99", "confirmed": false},
+      {"id": "veg-pakora", "category": "appetizers", "name": "Veg Pakora", "description": "Vegetable fritters in a spiced gram-flour batter.", "price": "4.99", "confirmed": false},
+      {"id": "paneer-pakora", "category": "appetizers", "name": "Paneer Pakora", "description": "Paneer with mint sauce, battered and fried.", "price": "7.99", "confirmed": false},
+      {"id": "samosa-chaat", "category": "appetizers", "name": "Samosa Chaat", "description": "Samosa with yogurt, mint, and tamarind.", "price": "8.99", "confirmed": false},
+      {"id": "chicken-tikka", "category": "clay-oven", "name": "Chicken Tikka", "description": "Spiced boneless chicken cooked in a clay oven.", "price": "14.99", "confirmed": false},
+      {"id": "tandoori-chicken", "category": "clay-oven", "name": "Tandoori Chicken", "description": "Bone-in chicken marinated with spices and cooked in a clay oven.", "price": "14.99", "confirmed": false},
+      {"id": "tomato-soup", "category": "soups", "name": "Cream of Tomato Soup", "description": "Tomato soup finished with cream.", "price": "3.50", "confirmed": false},
+      {"id": "daal-soup", "category": "soups", "name": "Daal Soup", "description": "A gently spiced lentil soup.", "price": "3.50", "confirmed": false}
+    ]
+  }
+}

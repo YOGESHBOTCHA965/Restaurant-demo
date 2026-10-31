@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="theme-color" content="#f7f1e6">
+  <meta name="description" content="Bombay Palace, Indian cuisine at 4213 Macon Rd, Columbus, Georgia. Explore the menu and get directions.">
+  <title>Bombay Palace | Indian cuisine in Columbus, Georgia</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="preload" href="assets/fonts/yatraone-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/mukta-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" type="image/webp" imagesrcset="assets/hero-spread-640.webp 640w, assets/hero-spread.webp 1024w" imagesizes="(max-width:760px) 100vw, 56vw">
+  <link rel="stylesheet" href="site.css">
+  <script src="app.js" defer></script>
+  <script src="experience.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="Bombay Palace home">
+        <svg class="brand-mark" viewBox="0 0 80 95" aria-hidden="true"><path d="M9 85V44C9 24 40 8 40 8s31 16 31 36v41M21 85V47c0-13 19-25 19-25s19 12 19 25v38M2 85h76M31 85V60a9 9 0 0 1 18 0v25"/></svg>
+        <span data-name>Bombay Palace</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#menu" data-nav-section="menu">Menu</a>
+        <a href="#spices" data-nav-section="spices">Spices</a>
+        <a href="#visit" data-nav-section="visit">Visit</a>
+      </nav>
+      <a class="button button-secondary button-small header-direction" data-directions target="_blank" rel="noopener noreferrer">Get directions</a>
+      <button class="mobile-toggle" id="mobile-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span></button>
+    </div>
+    <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation" hidden>
+      <a href="#menu" data-nav-section="menu">Menu</a>
+      <a href="#spices" data-nav-section="spices">Spices</a>
+      <a href="#visit" data-nav-section="visit">Visit</a>
+      <a class="button button-primary" data-directions target="_blank" rel="noopener noreferrer">Get directions</a>
+    </nav>
+  </header>
+
+  {{DEFS}}
+
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <h1 id="hero-title" data-name>Bombay Palace</h1>
+        <svg class="brush hero-brush" viewBox="0 0 240 18" aria-hidden="true"><use href="#brush"/></svg>
+        <p class="hero-lede" id="hero-lede">A little Bombay. A little closer.</p>
+        <p class="hero-intro" id="intro">A warm invitation to explore Indian cuisine, right here on Macon Road.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#menu">Explore the menu</a>
+          <a class="button button-secondary" data-directions target="_blank" rel="noopener noreferrer">Get directions</a>
+        </div>
+        <p class="hero-meta"><span id="tagline">Indian cuisine · Columbus, Georgia</span><span><span data-address>4213 Macon Rd</span>, <span data-city>Columbus, GA 31907</span></span></p>
+      </div>
+
+      <figure class="hero-photo">
+        <div class="hero-frame" id="hero-frame">
+          <img class="hero-layer is-current" data-layer="spread" src="assets/hero-spread.webp" srcset="assets/hero-spread-640.webp 640w, assets/hero-spread.webp 1024w" sizes="(max-width:760px) 100vw, 56vw" alt="A table of chicken tikka, samosas, pakora, daal soup and tomato soup with chutneys" width="1024" height="1024" fetchpriority="high" decoding="async">
+        </div>
+        <div class="start-board" role="group" aria-labelledby="start-title">
+          <h2 id="start-title">Where to start</h2>
+          <ul>
+            <li><button type="button" class="start-dish" data-start-dish="veg-samosa" data-menu-path="appetizers" data-preview="assets/dish-samosa.webp" data-alt="Three golden vegetable samosas with mint and tamarind chutneys"><span class="start-name">Veg Samosa</span><span class="start-category" data-category-name="appetizers">Appetizers</span></button></li>
+            <li><button type="button" class="start-dish" data-start-dish="chicken-tikka" data-menu-path="clay-oven" data-preview="assets/dish-tikka.webp" data-alt="Chicken tikka with red onion, lemon and mint chutney"><span class="start-name">Chicken Tikka</span><span class="start-category" data-category-name="clay-oven">Clay oven</span></button></li>
+            <li><button type="button" class="start-dish" data-start-dish="daal-soup" data-menu-path="soups" data-preview="assets/dish-daal.webp" data-alt="A bowl of golden daal soup with cream, cumin and a dried chili"><span class="start-name">Daal Soup</span><span class="start-category" data-category-name="soups">Soups</span></button></li>
+          </ul>
+        </div>
+        <figcaption class="photo-note">Illustrative photograph</figcaption>
+      </figure>
+    </section>
+
+    <section class="oven-feature" aria-labelledby="oven-title">
+      <div class="oven-inner">
+        <figure class="oven-photo">
+          <img src="assets/feature-tandoori.webp" srcset="assets/feature-tandoori-640.webp 640w, assets/feature-tandoori.webp 1024w" sizes="(max-width:760px) 100vw, 54vw" alt="Tandoori chicken legs and chicken tikka skewers on a brass platter with onion, lemon and green chili" width="1024" height="768" loading="lazy" decoding="async">
+        </figure>
+        <div class="oven-copy">
+          <h2 id="oven-title">Straight from the clay oven</h2>
+          <svg class="brush" viewBox="0 0 240 18" aria-hidden="true"><use href="#brush"/></svg>
+          <p>Chicken tikka and tandoori chicken, marinated and cooked over the coals of a tandoor.</p>
+          <button type="button" class="button button-primary" data-menu-path="clay-oven">See the clay oven dishes</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="menu-aside">
+        <h2 id="menu-title">The menu</h2>
+        <svg class="brush" viewBox="0 0 240 18" aria-hidden="true"><use href="#brush"/></svg>
+        <p class="menu-lede">Golden starters, clay-oven cooking and a comforting bowl. A first look at what the kitchen serves.</p>
+        <p class="menu-disclaimer" id="menu-disclaimer">A selection from the menu. <a id="menu-source" target="_blank" rel="noopener noreferrer">View source</a></p>
+        <div class="category-filters" id="category-filters" role="group" aria-label="Filter the menu by category"></div>
+        <label class="search-box">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg>
+          <span class="sr-only">Search the menu</span>
+          <input id="menu-search" type="search" placeholder="Search dishes" autocomplete="off" enterkeyhint="search">
+        </label>
+        <figure class="menu-photo">
+          <img id="menu-photo" src="assets/hero-spread-640.webp" alt="A table of chicken tikka, samosas, pakora, daal soup and tomato soup with chutneys" width="640" height="640" loading="lazy" decoding="async">
+        </figure>
+      </div>
+      <div class="menu-main">
+        <div class="menu-results-line">
+          <p id="menu-count" aria-live="polite"></p>
+          <button type="button" id="show-all-menu" class="text-button" hidden>Show all dishes</button>
+        </div>
+        <div class="menu-grid" id="menu-grid"></div>
+        <div class="menu-empty" id="menu-empty" hidden>
+          <h3>Nothing by that name yet</h3>
+          <p>This is a selection of the menu. Try another word, or browse every dish.</p>
+          <button class="button button-secondary" type="button" id="clear-search">Show all dishes</button>
+        </div>
+        <p class="ordering-note" hidden><span id="ordering-note"></span> <a id="ordering-link" class="button button-primary button-small" hidden target="_blank" rel="noopener noreferrer">Order online</a></p>
+      </div>
+    </section>
+
+    <section class="spice-section" id="spices" aria-labelledby="spice-title">
+      <div class="spice-copy">
+        <h2 id="spice-title">Three spices worth knowing</h2>
+        <svg class="brush" viewBox="0 0 240 18" aria-hidden="true"><use href="#brush"/></svg>
+        <p class="spice-lede">Familiar favorites or a first taste of something new. Pick a spice to meet one of the aromas of Indian cooking.</p>
+        <div class="spice-tabs" role="group" aria-label="Choose a spice">
+          <button type="button" data-spice-button="cardamom" aria-pressed="true">Cardamom</button>
+          <button type="button" data-spice-button="cumin" aria-pressed="false">Cumin</button>
+          <button type="button" data-spice-button="chili" aria-pressed="false">Chili</button>
+        </div>
+        <div class="spice-note" aria-live="polite" aria-atomic="true">
+          <h3 class="sr-only" id="spice-name">Cardamom</h3>
+          <p class="spice-profile" id="spice-profile">Floral, fragrant, bright</p>
+          <p id="spice-text">A small pod with a beautifully aromatic personality. An invitation to explore the fragrant side of Indian cooking.</p>
+        </div>
+      </div>
+      <div class="spice-stage" data-active="cardamom">
+        <svg class="spice-art" id="spice-illustration" viewBox="0 0 500 500" role="img" aria-label="Botanical illustration of cardamom">
+          <g data-spice-art="cardamom" class="spice-artwork is-active"><use href="#art-cardamom" x="0" y="30" width="500" height="416"/></g>
+          <g data-spice-art="cumin" class="spice-artwork"><use href="#art-cumin" x="0" y="30" width="500" height="416"/></g>
+          <g data-spice-art="chili" class="spice-artwork"><use href="#art-chili" x="0" y="30" width="500" height="416"/></g>
+        </svg>
+      </div>
+    </section>
+
+    <section class="visit-section" id="visit" aria-labelledby="visit-title">
+      <div class="visit-place">
+        <h2 class="visit-address" id="visit-title"><span class="sr-only">Visit us at </span><span id="visit-address"><span data-address>4213 Macon Rd</span> <span data-city>Columbus, GA 31907</span></span></h2>
+        <svg class="brush" viewBox="0 0 240 18" aria-hidden="true"><use href="#brush"/></svg>
+        <div class="visit-actions">
+          <a class="button button-primary" data-directions target="_blank" rel="noopener noreferrer">Get directions in Google Maps</a>
+          <button class="button button-secondary" type="button" id="copy-address">Copy address</button>
+        </div>
+        <p class="copy-status" id="copy-status" role="status"></p>
+        <p class="restaurant-notice" id="restaurant-notice" hidden></p>
+        <div class="visit-facts">
+          <div class="visit-fact">
+            <h3>Hours <span class="status-tag" id="hours-status" hidden></span></h3>
+            <dl class="hours-list" id="hours-list"></dl>
+            <p class="hours-note" id="hours-note">Being confirmed with the restaurant.</p>
+          </div>
+          <div class="visit-fact contact-block">
+            <h3>Phone</h3>
+            <a id="phone-link" hidden></a>
+            <p id="phone-pending">Being confirmed with the restaurant.</p>
+          </div>
+        </div>
+      </div>
+      <figure class="visit-photo">
+        <img src="assets/visit-table-day.webp" srcset="assets/visit-table-day-640.webp 640w, assets/visit-table-day.webp 1024w" sizes="(max-width:1080px) 100vw, 46vw" alt="A table laid for two with brass tumblers, naan, mint chutney and marigolds" width="1024" height="768" loading="lazy" decoding="async">
+        <figcaption class="photo-note">Illustrative photograph, not the restaurant's dining room</figcaption>
+      </figure>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <a class="footer-brand" href="#home">
+        <svg class="brand-mark" viewBox="0 0 80 95" aria-hidden="true"><path d="M9 85V44C9 24 40 8 40 8s31 16 31 36v41M21 85V47c0-13 19-25 19-25s19 12 19 25v38M2 85h76M31 85V60a9 9 0 0 1 18 0v25"/></svg>
+        <span data-footer-name>Bombay Palace</span>
+      </a>
+      <p class="footer-address"><span data-address>4213 Macon Rd</span>, <span data-city>Columbus, GA 31907</span></p>
+      <div class="footer-row">
+        <p>Photographs are illustrative.</p>
+        <button class="text-button" type="button" data-open-editor>Staff editor</button>
+      </div>
+    </div>
+  </footer>
+
+  <div class="mobile-bottom">
+    <a href="#menu">Menu</a>
+    <a data-directions target="_blank" rel="noopener noreferrer">Directions</a>
+  </div>
+  <div id="toast" role="status" hidden></div>
+
+  {{EDITOR}}
+</body>
+</html>

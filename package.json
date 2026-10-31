@@ -1,0 +1,10 @@
+{
+  "name": "bombay-palace-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Editable Bombay Palace restaurant website with interactive illustrations.",
+  "scripts": {
+    "dev": "node scripts/preview.mjs",
+    "start": "node scripts/preview.mjs"
+  }
+}

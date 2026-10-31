@@ -1,0 +1,168 @@
+{
+  "title": "Choose the visual world",
+  "question": "The roll assigned the clay oven. Keep it, take the brass door, or re-roll.",
+  "options": [
+    {
+      "id": "assigned",
+      "label": "The clay oven",
+      "kicker": "THE ROLL",
+      "lineage": "A tandoor seen straight on, from a dim room",
+      "thesis": "Dinner is a look into the oven: the dish sits in the opening, the name is the sign above it.",
+      "palette": ["#161210", "#C45A32", "#E8A15A", "#F2E4D4"],
+      "materials": ["fired clay", "charcoal surround", "coal-orange field"],
+      "viewport": "The name and directions are sign-sized on the dark surround. A large circular opening holds one dish on a flat coal field, with a short ranked list of the others beside it.",
+      "risk": "A circle crop of food can read as a pizza-oven gimmick if the clay wall is not a real field of color.",
+      "raised": [
+        { "from": "Silk canopy", "raise": "The opening is a full field of color and is the state of the chosen dish, not a tint on a photo." },
+        { "from": "Pop sleeve", "raise": "The clay wall is one unbroken color, and the dishes rank as a short list in one corner." },
+        { "from": "Googie sign", "raise": "The name and the way in are the largest structure on the page, not a small header button." },
+        { "from": "Flight instruments", "raise": "Hours, phone, and ordering each occupy one calm place and show “not yet confirmed” as the reading." },
+        { "from": "Mini room", "raise": "The visit block is a place, with the address as its furniture, not a contact form." }
+      ],
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          { "label": "Name as sign", "x": 0, "y": 0, "w": 7, "h": 4 },
+          { "label": "Oven opening", "x": 7, "y": 0, "w": 5, "h": 7, "accent": true },
+          { "label": "Ranked dishes", "x": 0, "y": 4, "w": 7, "h": 4 },
+          { "label": "Directions", "x": 0, "y": 8, "w": 5, "h": 2, "accent": true },
+          { "label": "Address", "x": 7, "y": 8, "w": 5, "h": 2 }
+        ]
+      },
+      "comp": ".impeccable/mocks/decision/assigned.webp"
+    },
+    {
+      "id": "model-pick",
+      "label": "The brass door",
+      "kicker": "IMPECCABLE’S PICK",
+      "lineage": "A hotel door plate, the number doing the talking",
+      "thesis": "4213 is the monument. The menu is what is served behind that door.",
+      "palette": ["#0E2A24", "#C6A15B", "#E7E1D6", "#14221E"],
+      "materials": ["green-black lacquer", "brass numerals", "one paper column"],
+      "viewport": "The numerals 4213 fill the left of the first screen. Bombay Palace and a single directions action sit in the brass. The selected menu is a paper column on the right.",
+      "risk": "Dark green and brass is where many premium restaurants already land, so it can feel familiar.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          { "label": "4213", "x": 0, "y": 0, "w": 7, "h": 7, "accent": true },
+          { "label": "Menu column", "x": 7, "y": 0, "w": 5, "h": 10 },
+          { "label": "Name and directions", "x": 0, "y": 7, "w": 7, "h": 3 }
+        ]
+      },
+      "comp": ".impeccable/mocks/decision/model-pick.webp"
+    },
+    {
+      "id": "challenger-glazier",
+      "label": "The glass wall",
+      "verdict": "competitive",
+      "lineage": "A glazier’s black-bar partition, one pane lit",
+      "thesis": "The menu is a wall of glass. One pane lights up for the dish that matters now.",
+      "palette": ["#111111", "#E8E4DC", "#1C4ED8", "#6E1E2A"],
+      "materials": ["matte black bars", "seeded white glass", "one saturated pane"],
+      "viewport": "Black mullions divide the first screen into panes. The address is one clear pane. The chosen dish floods one pane. The rest of the menu is a row of quiet panes.",
+      "case": "Clearer for reading one fact per pane. A workshop wall is not how a Columbus diner pictures this restaurant.",
+      "risk": "Elegant and strict, and a little cold for a meal.",
+      "wireframe": {
+        "cols": 12,
+        "rows": 10,
+        "regions": [
+          { "label": "Address pane", "x": 0, "y": 0, "w": 4, "h": 5 },
+          { "label": "Lit dish", "x": 4, "y": 0, "w": 8, "h": 6, "accent": true },
+          { "label": "Menu panes", "x": 0, "y": 6, "w": 12, "h": 4 }
+        ]
+      },
+      "comp": ".impeccable/mocks/decision/challenger-glazier.webp",
+      "hero": "https://impeccable.style/worlds/cards/craft-making-glazier-colorfield-partition-hero.webp",
+      "board": "https://impeccable.style/worlds/cards/craft-making-glazier-colorfield-partition.webp"
+    },
+    {
+      "id": "challenger-canopy",
+      "label": "The silk canopy",
+      "verdict": "declined",
+      "lineage": "Overlapping indigo, madder, and saffron banners",
+      "palette": ["#F7F4EF", "#1E3A8A", "#9A3412", "#E3B23C"],
+      "materials": ["translucent silk", "sunlit paving"],
+      "viewport": "Color banners cross a bright courtyard.",
+      "risk": "Beautiful, and hard to read a menu through.",
+      "case": "A diner does not see their dinner in computational silk, and the chords fight the prices.",
+      "kept": "Color is the structure. The oven opening is now a full field that changes with the dish.",
+      "hero": "https://impeccable.style/worlds/cards/generative-art-computational-color-chord-counterpoint-hero.webp"
+    },
+    {
+      "id": "challenger-sleeve",
+      "label": "The pop sleeve",
+      "verdict": "declined",
+      "lineage": "A French pop record cover",
+      "palette": ["#F26B2B", "#F4E7D8", "#FFFFFF"],
+      "materials": ["flat ink", "cropped portrait"],
+      "viewport": "One saturated ground, a cropped photo, four titles in a corner.",
+      "risk": "A sleeve is a closed set of four tracks. This menu is not.",
+      "case": "The owner and the diner do not meet on a pop cover, and eight dishes will not fit the corner.",
+      "kept": "One unbroken ground, and a short ranked list instead of a card grid.",
+      "hero": "https://impeccable.style/worlds/cards/posters-covers-sleeves-yeye-pop-sleeve-hero.webp"
+    },
+    {
+      "id": "challenger-googie",
+      "label": "The starburst diner",
+      "verdict": "declined",
+      "lineage": "A Googie roadside diner",
+      "palette": ["#1A9B96", "#E15B4A", "#F4F1EA", "#1C1C1C"],
+      "materials": ["turquoise laminate", "neon starburst"],
+      "viewport": "A cantilever sign, boomerang counter, atomic prices.",
+      "risk": "It sells coffee at the space age, not a premium Indian table.",
+      "case": "The costume argues with the restaurant the owner wants to be proud of.",
+      "kept": "The name and the way in are built at sign scale.",
+      "hero": "https://impeccable.style/worlds/cards/design-canon-googie-starburst-diner-hero.webp"
+    },
+    {
+      "id": "challenger-sixpack",
+      "label": "The night instruments",
+      "verdict": "declined",
+      "lineage": "An aircraft instrument panel",
+      "palette": ["#0C0E10", "#D7E2D2", "#C4552A"],
+      "materials": ["matte black panel", "luminous dials"],
+      "viewport": "Six gauges for facts that are not confirmed yet.",
+      "risk": "Dials would pretend the blank hours are a precise reading.",
+      "case": "A pilot’s panel is not dinner, and unconfirmed hours must not look certain.",
+      "kept": "Each unconfirmed fact gets one calm place and shows that it is not confirmed.",
+      "hero": "https://impeccable.style/worlds/cards/signals-instruments-night-flight-six-pack-hero.webp"
+    },
+    {
+      "id": "challenger-room",
+      "label": "The miniature room",
+      "verdict": "declined",
+      "lineage": "A furnishable isometric profile room",
+      "palette": ["#F3D6DE", "#C9E4D4", "#F7F1E4"],
+      "materials": ["pastel tiles", "sticker furniture"],
+      "viewport": "A dollhouse room with a diary beside it.",
+      "risk": "Pastel and tiny. It fights a rich dining room.",
+      "case": "Decorating a room does not help someone choose a table on Macon Road.",
+      "kept": "The visit section is a place you orient in, not a form.",
+      "hero": "https://impeccable.style/worlds/cards/cyworld-minihompy-room-hero.webp"
+    }
+  ],
+  "reroll": { "registers": ["safer", "bolder"] },
+  "steer": true,
+  "buildPath": { "value": "code", "toggle": true },
+  "canon": true,
+  "canonCard": {
+    "label": "The category standard",
+    "thesis": "The restaurant page this category already ships, played straight.",
+    "palette": ["#F4EFE6", "#3D1F24", "#A56B45", "#1A1A1A"],
+    "materials": ["ivory paper", "wine type", "copper accent", "food photography"],
+    "viewport": "A split hero: serif headline on the left, a dish on the right, three equal photo cards under it, then hours.",
+    "risk": "It will look like the prototype you already have, and like every other restaurant site.",
+    "wireframe": {
+      "cols": 12,
+      "rows": 10,
+      "regions": [
+        { "label": "Headline", "x": 0, "y": 1, "w": 6, "h": 4 },
+        { "label": "Photo", "x": 6, "y": 1, "w": 6, "h": 4 },
+        { "label": "Three cards", "x": 0, "y": 6, "w": 12, "h": 4 }
+      ]
+    },
+    "comp": ".impeccable/mocks/decision/canon.webp"
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-31T15:07:00-04:00",
+  "title": "Design System: Bombay Palace",
+  "extensions": {
+    "colorMeta": {
+      "green": {
+        "role": "primary",
+        "displayName": "Deep Green",
+        "canonical": "#1b4332",
+        "tonalRamp": ["oklch(16% 0.034 163)", "oklch(28% 0.054 163)", "oklch(40% 0.067 163)", "oklch(52% 0.070 163)", "oklch(64% 0.063 163)", "oklch(76% 0.048 163)", "oklch(86% 0.030 163)", "oklch(95% 0.011 163)"]
+      },
+      "green-pressed": {
+        "role": "primary",
+        "displayName": "Pressed Green",
+        "canonical": "#143328",
+        "tonalRamp": ["oklch(16% 0.026 168)", "oklch(28% 0.042 168)", "oklch(40% 0.052 168)", "oklch(52% 0.055 168)", "oklch(64% 0.050 168)", "oklch(76% 0.038 168)", "oklch(86% 0.023 168)", "oklch(95% 0.009 168)"]
+      },
+      "on-green": {
+        "role": "primary",
+        "displayName": "On Green",
+        "canonical": "#ffffff",
+        "tonalRamp": ["oklch(16% 0.002 78)", "oklch(28% 0.003 78)", "oklch(40% 0.004 78)", "oklch(52% 0.004 78)", "oklch(64% 0.004 78)", "oklch(76% 0.003 78)", "oklch(86% 0.002 78)", "oklch(95% 0.001 78)"]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm Paper",
+        "canonical": "#fbf9f6",
+        "tonalRamp": ["oklch(16% 0.004 78)", "oklch(28% 0.006 78)", "oklch(40% 0.008 78)", "oklch(52% 0.008 78)", "oklch(64% 0.007 78)", "oklch(76% 0.005 78)", "oklch(86% 0.003 78)", "oklch(95% 0.001 78)"]
+      },
+      "sheet": {
+        "role": "neutral",
+        "displayName": "Sheet",
+        "canonical": "#ffffff",
+        "tonalRamp": ["oklch(16% 0.002 78)", "oklch(28% 0.003 78)", "oklch(40% 0.004 78)", "oklch(52% 0.004 78)", "oklch(64% 0.004 78)", "oklch(76% 0.003 78)", "oklch(86% 0.002 78)", "oklch(95% 0.001 78)"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Charcoal Ink",
+        "canonical": "#1c1916",
+        "tonalRamp": ["oklch(16% 0.006 70)", "oklch(28% 0.009 70)", "oklch(40% 0.011 70)", "oklch(52% 0.012 70)", "oklch(64% 0.011 70)", "oklch(76% 0.008 70)", "oklch(86% 0.005 70)", "oklch(95% 0.002 70)"]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#3f3a34",
+        "tonalRamp": ["oklch(16% 0.008 72)", "oklch(28% 0.012 72)", "oklch(40% 0.015 72)", "oklch(52% 0.016 72)", "oklch(64% 0.014 72)", "oklch(76% 0.011 72)", "oklch(86% 0.007 72)", "oklch(95% 0.003 72)"]
+      },
+      "ink-quiet": {
+        "role": "neutral",
+        "displayName": "Quiet Ink",
+        "canonical": "#5c564c",
+        "tonalRamp": ["oklch(16% 0.010 81)", "oklch(28% 0.015 81)", "oklch(40% 0.019 81)", "oklch(52% 0.020 81)", "oklch(64% 0.018 81)", "oklch(76% 0.014 81)", "oklch(86% 0.009 81)", "oklch(95% 0.003 81)"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "rgba(28,25,22,.14)",
+        "tonalRamp": ["oklch(16% 0.006 70)", "oklch(28% 0.009 70)", "oklch(40% 0.011 70)", "oklch(52% 0.012 70)", "oklch(64% 0.011 70)", "oklch(76% 0.008 70)", "oklch(86% 0.005 70)", "oklch(95% 0.002 70)"]
+      },
+      "line-strong": {
+        "role": "neutral",
+        "displayName": "Strong Hairline",
+        "canonical": "rgba(28,25,22,.32)",
+        "tonalRamp": ["oklch(16% 0.006 70)", "oklch(28% 0.009 70)", "oklch(40% 0.011 70)", "oklch(52% 0.012 70)", "oklch(64% 0.011 70)", "oklch(76% 0.008 70)", "oklch(86% 0.005 70)", "oklch(95% 0.002 70)"]
+      },
+      "danger": {
+        "role": "neutral",
+        "displayName": "Danger",
+        "canonical": "#8e2f1c",
+        "tonalRamp": ["oklch(16% 0.067 33)", "oklch(28% 0.108 33)", "oklch(40% 0.133 33)", "oklch(52% 0.140 33)", "oklch(64% 0.127 33)", "oklch(76% 0.096 33)", "oklch(86% 0.060 33)", "oklch(95% 0.022 33)"]
+      },
+      "danger-wash": {
+        "role": "neutral",
+        "displayName": "Danger Wash",
+        "canonical": "#f8e8e4",
+        "tonalRamp": ["oklch(16% 0.014 34)", "oklch(28% 0.023 34)", "oklch(40% 0.029 34)", "oklch(52% 0.030 34)", "oklch(64% 0.027 34)", "oklch(76% 0.021 34)", "oklch(86% 0.013 34)", "oklch(95% 0.005 34)"]
+      },
+      "selection": {
+        "role": "neutral",
+        "displayName": "Selection",
+        "canonical": "#d7e6dc",
+        "tonalRamp": ["oklch(16% 0.013 157)", "oklch(28% 0.022 157)", "oklch(40% 0.027 157)", "oklch(52% 0.028 157)", "oklch(64% 0.025 157)", "oklch(76% 0.019 157)", "oklch(86% 0.012 157)", "oklch(95% 0.004 157)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Opening headline only, self-hosted Sorts Mill Goudy at weight 400." },
+      "headline": { "displayName": "Headline", "purpose": "Section titles in Sorts Mill Goudy." },
+      "brand": { "displayName": "Wordmark", "purpose": "Header and footer name in Sorts Mill Goudy." },
+      "name": { "displayName": "Name", "purpose": "Category names and the support line under the opening headline, in Source Sans 3." },
+      "title": { "displayName": "Title", "purpose": "Menu group titles in Source Sans 3, not Goudy." },
+      "body": { "displayName": "Body", "purpose": "Page copy at 1.0625rem and 1.6 leading." },
+      "lede": { "displayName": "Lede", "purpose": "The sentence under a section title, in soft ink." },
+      "label": { "displayName": "Label", "purpose": "Captions, photo notes, and meta, in quiet ink." },
+      "button": { "displayName": "Button", "purpose": "Primary, secondary, and filter labels at weight 600." }
+    },
+    "shadows": [
+      { "name": "current-mark", "value": "inset 0 -2px 0 #1b4332", "purpose": "The 2px underline on the current header section. It is a rule, not elevation." },
+      { "name": "scrim", "value": "rgba(28,25,22,.46)", "purpose": "The dialog backdrop behind the gallery and the staff editor." }
+    ],
+    "motion": [
+      { "name": "press", "value": "translateY(1px)", "purpose": "A button shifts down 1px while pressed. Reduced motion removes the shift." },
+      { "name": "scroll", "value": "smooth", "purpose": "In-page anchor scrolling. Reduced motion uses auto. Hover color changes have no duration." }
+    ],
+    "breakpoints": [
+      { "name": "opening", "value": "860px" },
+      { "name": "nav", "value": "980px" },
+      { "name": "stack", "value": "800px" },
+      { "name": "bar", "value": "760px" },
+      { "name": "snap", "value": "640px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The filled action: explore the menu, directions, and other primary steps.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#menu\">Explore the menu</a>",
+      "css": ".ds-btn-primary{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 18px;border-radius:2px;border:1.5px solid transparent;background:var(--green,#1b4332);color:#fff;font-family:var(--sans,\"Source Sans 3\",\"Segoe UI\",sans-serif);font-weight:600;font-size:1.0625rem;line-height:1;text-decoration:none;cursor:pointer}.ds-btn-primary:hover{background:var(--green-2,#143328)}.ds-btn-primary:focus-visible{outline:2px solid var(--green,#1b4332);outline-offset:3px}.ds-btn-primary:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "The paired action on paper: directions beside the primary, or a dialog control.",
+      "html": "<a class=\"ds-btn-secondary\" href=\"#visit\">Get directions</a>",
+      "css": ".ds-btn-secondary{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 18px;border-radius:2px;border:1.5px solid var(--ink,#1c1916);background:transparent;color:var(--ink,#1c1916);font-family:var(--sans,\"Source Sans 3\",\"Segoe UI\",sans-serif);font-weight:600;font-size:1.0625rem;line-height:1;text-decoration:none;cursor:pointer}.ds-btn-secondary:hover{background:var(--ink,#1c1916);color:var(--paper,#fbf9f6)}.ds-btn-secondary:focus-visible{outline:2px solid var(--green,#1b4332);outline-offset:3px}.ds-btn-secondary:active{transform:translateY(1px)}"
+    },
+    {
+      "name": "Text Button",
+      "kind": "button",
+      "refersTo": "text-button",
+      "description": "A quiet underlined action with no fill, for show-all, copy, and the staff editor.",
+      "html": "<button class=\"ds-text-button\" type=\"button\">Show all dishes</button>",
+      "css": ".ds-text-button{min-height:44px;padding:0;border:0;background:transparent;color:var(--ink-2,#3f3a34);font-family:var(--sans,\"Source Sans 3\",\"Segoe UI\",sans-serif);font-size:1.0625rem;font-weight:500;text-decoration:underline;text-underline-offset:.22em;cursor:pointer}.ds-text-button:hover{color:var(--ink,#1c1916)}.ds-text-button:focus-visible{outline:2px solid var(--green,#1b4332);outline-offset:3px}"
+    },
+    {
+      "name": "Category Filter",
+      "kind": "chip",
+      "refersTo": "filter",
+      "description": "A menu category control. Pressed state fills with deep green.",
+      "html": "<div class=\"ds-filters\"><button class=\"ds-filter\" type=\"button\">All dishes</button><button class=\"ds-filter\" type=\"button\" aria-pressed=\"true\">Clay oven</button></div>",
+      "css": ".ds-filters{display:flex;gap:8px}.ds-filter{min-height:44px;padding:0 14px;border-radius:2px;border:1px solid rgba(28,25,22,.32);background:transparent;color:var(--ink-2,#3f3a34);font-family:var(--sans,\"Source Sans 3\",\"Segoe UI\",sans-serif);font-weight:600;font-size:1.0625rem;cursor:pointer}.ds-filter:hover{border-color:var(--ink,#1c1916)}.ds-filter[aria-pressed='true']{background:var(--green,#1b4332);border-color:var(--green,#1b4332);color:#fff}.ds-filter[aria-pressed='true']:hover{background:var(--green-2,#143328);border-color:var(--green-2,#143328)}.ds-filter:focus-visible{outline:2px solid var(--green,#1b4332);outline-offset:3px}"
+    },
+    {
+      "name": "Search",
+      "kind": "input",
+      "refersTo": "search",
+      "description": "The menu search field on a white sheet with a strong hairline.",
+      "html": "<label class=\"ds-search\"><svg viewBox=\"0 0 24 24\" aria-hidden=\"true\"><circle cx=\"10.5\" cy=\"10.5\" r=\"6.5\"></circle><path d=\"m16 16 5 5\"></path></svg><input type=\"search\" placeholder=\"Search dishes\" aria-label=\"Search the menu\"></label>",
+      "css": ".ds-search{display:flex;align-items:center;gap:8px;min-height:48px;padding:0 12px;background:#fff;border:1px solid rgba(28,25,22,.32);border-radius:2px;max-width:280px}.ds-search:focus-within{border-color:var(--ink,#1c1916);outline:2px solid var(--green,#1b4332);outline-offset:2px}.ds-search input{flex:1;min-width:0;border:0;background:transparent;padding:10px 0;font-family:var(--sans,\"Source Sans 3\",\"Segoe UI\",sans-serif);font-size:1rem;color:var(--ink,#1c1916)}.ds-search input:focus{outline:none}.ds-search input::placeholder{color:var(--ink-3,#5c564c)}.ds-search svg{width:18px;height:18px;fill:none;stroke:var(--ink-2,#3f3a34);stroke-width:1.6;flex:none}"
+    },
+    {
+      "name": "Field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "A labeled sheet field, as used in the editor and the newsletter row.",
+      "html": "<label class=\"ds-field\">Label<input type=\"text\" placeholder=\"\"></label>",
+      "css": ".ds-field{display:flex;flex-direction:column;gap:4px;font-family:var(--sans,\"Source Sans 3\",\"Segoe UI\",sans-serif);font-weight:600;font-size:.9375rem;color:var(--ink,#1c1916);max-width:320px}.ds-field input{min-height:44px;padding:8px 10px;border:1px solid rgba(28,25,22,.32);border-radius:2px;background:#fff;font-weight:400;font-size:1.0625rem;color:var(--ink,#1c1916)}.ds-field input:focus{outline:none}.ds-field input:focus-visible{outline:2px solid var(--green,#1b4332);outline-offset:3px}"
+    },
+    {
+      "name": "Primary Navigation",
+      "kind": "nav",
+      "description": "Header links. The current section is charcoal with a deep-green underline.",
+      "html": "<nav class=\"ds-nav\" aria-label=\"Primary\"><a href=\"#menu\" aria-current=\"location\">Menu</a><a href=\"#story\">Our Story</a><a href=\"#gallery\">Gallery</a><a href=\"#visit\">Visit &amp; Contact</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:22px;font-family:var(--sans,\"Source Sans 3\",\"Segoe UI\",sans-serif)}.ds-nav a{color:var(--ink-2,#3f3a34);text-decoration:none;font-weight:500;font-size:1.0625rem;min-height:44px;display:inline-flex;align-items:center}.ds-nav a[aria-current='location']{color:var(--ink,#1c1916);box-shadow:inset 0 -2px 0 var(--green,#1b4332)}.ds-nav a:hover{color:var(--green,#1b4332)}.ds-nav a:focus-visible{outline:2px solid var(--green,#1b4332);outline-offset:3px}"
+    },
+    {
+      "name": "Dish Line",
+      "kind": "custom",
+      "description": "One scannable dish: name, tabular price, and a short description on a hairline.",
+      "html": "<article class=\"ds-dish\"><div class=\"ds-dish-line\"><h4>Dish name</h4><span class=\"ds-price\">00.00</span></div><p>A short description on the quiet measure.</p></article>",
+      "css": ".ds-dish{padding:14px 0 16px;border-top:1px solid rgba(28,25,22,.14);max-width:42rem;font-family:var(--sans,\"Source Sans 3\",\"Segoe UI\",sans-serif)}.ds-dish-line{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:8px 24px;align-items:baseline}.ds-dish h4{margin:0;font-weight:600;font-size:1.125rem;line-height:1.35;color:var(--ink,#1c1916)}.ds-price{font-weight:600;font-variant-numeric:tabular-nums;color:var(--ink,#1c1916)}.ds-dish p{margin:4px 0 0;max-width:62ch;color:var(--ink-2,#3f3a34);font-size:1.0625rem;line-height:1.6}"
+    },
+    {
+      "name": "Photograph with Caption",
+      "kind": "card",
+      "description": "A square plate with the caption underneath, never on the picture.",
+      "html": "<figure class=\"ds-plate\"><div class=\"ds-plate-frame\" role=\"img\" aria-label=\"Photograph\"></div><figcaption>Illustrative photograph</figcaption></figure>",
+      "css": ".ds-plate{margin:0;max-width:320px}.ds-plate-frame{display:block;width:100%;aspect-ratio:1;background:#e4ddd4}.ds-plate figcaption{margin-top:8px;color:var(--ink-3,#5c564c);font-family:var(--sans,\"Source Sans 3\",\"Segoe UI\",sans-serif);font-size:.9375rem;line-height:1.4}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Sunday Dining Page",
+    "overview": "The page is set like a printed Sunday dining feature on warm paper. A square photograph and a Sorts Mill Goudy headline share the opening; the rest of the visit is a scannable menu, hairline rules, and a clear action. Sections are airy: each one starts with a single rule and a deep band of the same paper, and each dish is one line.\n\nColor is almost all paper and charcoal. Deep green is the only accent. It fills the primary action and the pressed category filter, and it also draws the focus ring, the current-section underline, text links, nav hover, a pressed tab, and the open-status label. Photographs keep their own proportion. The caption or the name sits under the plate, never on it. Corners are 2px. Nothing is lifted with a drop shadow.\n\nTwo self-hosted faces do all the work. Sorts Mill Goudy, at its only shipped weight, is the wordmark and the headlines. Source Sans 3 is navigation, the menu, buttons, and captions. A proposed arch mark sits beside the wordmark in the header and the footer.",
+    "keyCharacteristics": [
+      "Warm paper field and charcoal ink, with white reserved for typing surfaces and dialogs",
+      "Self-hosted Sorts Mill Goudy for the wordmark and headlines; self-hosted Source Sans 3 for the UI and the menu",
+      "Square photograph sharing the opening with the headline, caption under the plate",
+      "Deep green for the primary action and the pressed filter",
+      "2px corners, 1px hairline rules, and no drop shadows"
+    ],
+    "rules": [
+      { "name": "The Paper Field Rule", "body": "The page background stays warm paper. Bands do not take a second fill. White is for a surface that accepts typing, or for a dialog.", "section": "colors" },
+      { "name": "The One Green Rule", "body": "Deep green is the only accent, and it is never a page field. It fills the primary action and the pressed category filter. The same green draws the 2px focus ring and the current-section underline, and it colors a text link, navigation hover, a pressed tab underline, and the open-status label.", "section": "colors" },
+      { "name": "The Two Faces Rule", "body": "Sorts Mill Goudy is the wordmark and the headlines. Source Sans 3 is navigation, body, the menu, buttons, filters, and captions. A headline is not set in the sans, and a button is not set in Goudy.", "section": "typography" },
+      { "name": "The Shared Opening Rule", "body": "From 860px up, the square photograph and the Goudy headline share the opening. The photograph stays square, at its own proportion, with no card around it. Under 860px it still belongs to that opening, stacked after the address, with the caption underneath.", "section": "layout" },
+      { "name": "The Flat Paper Rule", "body": "Surfaces stay flat at rest and on hover. Do not add a drop shadow to separate a band, a plate, or a control. Use the hairline, the sheet, or the dialog scrim.", "section": "elevation" },
+      { "name": "The Two-Pixel Rule", "body": "Controls, dialogs, and toasts use a 2px radius. Do not round a photograph into a pill, and do not sharpen a button back to a hard square.", "section": "shapes" },
+      { "name": "The Caption Under the Plate Rule", "body": "The name or the caption sits under the photograph. Nothing is lettered on the food, and no panel sits on the picture.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do keep the page field on warm paper and the text on charcoal ink.",
+      "Do set the wordmark and headlines in self-hosted Sorts Mill Goudy, and navigation, the menu, and buttons in self-hosted Source Sans 3.",
+      "Do share the opening, from 860px up, between the square photograph and the Goudy headline, and place the caption under the plate.",
+      "Do use deep green for the primary action and the pressed category filter.",
+      "Do keep controls at a 2px radius and separate sections with a 1px hairline.",
+      "Do show photographs at their own proportion, with a name or caption underneath."
+    ],
+    "donts": [
+      "Don't paint a section band, a headline, or a photograph with deep green.",
+      "Don't put type, a card, or a panel on top of a photograph.",
+      "Don't add a drop shadow or a second accent color.",
+      "Don't set headlines in Source Sans 3, or buttons and the menu in Sorts Mill Goudy.",
+      "Don't replace either self-hosted face with a system display font. Goudy ships at weight 400 only.",
+      "Don't crop the opening photograph into a wide banner. It stays square."
+    ]
+  }
+}
